@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 from einops import rearrange
 
-class MultiheadAttention(nn.Module):
+class MultiHeadAttention(nn.Module):
     def __init__(self, dim, heads):
         super().__init__()
         self.heads = heads
